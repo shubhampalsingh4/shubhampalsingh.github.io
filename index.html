@@ -252,7 +252,7 @@
       padding: 1.25rem;
       font-size: 0.83rem;
       color: #cbd5e1;
-      height: 330px;
+      height: 250px;
       overflow-y: auto;
     }
 
@@ -541,8 +541,7 @@
   <header>
     <div class="container">
       <nav>
-<div class="logo">
-          <img src="Profile.jpeg" alt="Shubham Pal Singh" style="width: 45px; height: 45px; border-radius: 50%; object-fit: cover; border: 1px solid var(--card-border);" />
+        <div class="logo">
           <div style="display: flex; flex-direction: column; gap: 2px;">
             <span>Shubham Pal Singh</span>
             <span style="font-size: 0.65em; font-weight: 500; color: var(--text-muted); font-family: 'JetBrains Mono', monospace;">QA Lead • SDET • AI-Assisted QA</span>
@@ -558,8 +557,8 @@
     </div>
   </header>
 
-  <!-- Hero Section with Interactive Visual Terminal -->
   <div class="container">
+    <!-- Hero Section -->
     <section class="hero">
       <div>
         <div class="status-pill">
@@ -580,7 +579,14 @@
         </div>
       </div>
 
-      <!-- Live Terminal Simulation -->
+      <!-- Profile Image on the Right -->
+      <div style="display: flex; justify-content: center; align-items: center;">
+        <img src="Profile.jpeg" alt="Shubham Pal Singh" style="width: 100%; max-width: 400px; border-radius: 16px; border: 1px solid var(--card-border); box-shadow: 0 20px 50px rgba(0, 0, 0, 0.5);" />
+      </div>
+    </section>
+
+    <!-- Moved Terminal Section -->
+    <div style="max-width: 850px; margin: 2rem auto 5rem auto;">
       <div class="terminal-window">
         <div class="terminal-bar">
           <div class="terminal-dots">
@@ -595,7 +601,7 @@
           <!-- Populated via script -->
         </div>
       </div>
-    </section>
+    </div>
 
     <!-- Key Metrics Strip -->
     <div class="stats-strip">
